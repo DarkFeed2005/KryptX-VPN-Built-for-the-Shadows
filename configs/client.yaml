@@ -1,0 +1,21 @@
+server:
+  endpoint: "your-server.com"
+  public_key: "your-server-public-key"
+  port: 51820
+
+network:
+  interface: "kryptx0"
+  address: "10.0.0.2/24"
+  dns: ["1.1.1.1", "1.0.0.1"]
+  allowed_ips: ["0.0.0.0/0"]
+  mtu: 1420
+
+security:
+  kill_switch: true
+  dns_leak_protection: true
+  encrypt_config: true
+
+gui:
+  theme: "dark"
+  animated: true
+  start_hidden: false
